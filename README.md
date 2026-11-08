@@ -11,6 +11,32 @@ An embedded smart refrigerator prototype developed using the ESP32 microcontroll
 - [Software Documentation](docs/software-documentation.md)
 - [Testing and Validation](docs/testing-and-validation.md)
 
+  
+## 3D Design and Modeling
+
+The refrigerator enclosure was developed as a 3D model, with separate body and door components and a fully assembled representation.
+
+### Refrigerator Design
+
+![Assembled Refrigerator Model](media/3d-model-previews/refrigerator-assembled-model.png)
+
+### Individual Components
+
+| Refrigerator Body | Refrigerator Front |
+|---|---|
+| ![Body Model](media/3d-model-previews/refrigerator-body-model.png) | ![Front View](media/3d-model-previews/refrigerator-front-view.png) |
+
+### 3D Printing Preparation
+
+![Slicer Preview](media/3d-model-previews/3d-printing-slicer-preview.png)
+
+### Download 3D Files
+
+- [Refrigerator Body (STL)](hardware/3d-models/refrigerator-body.stl)
+- [Refrigerator Door (STL)](hardware/3d-models/refrigerator-door.stl)
+- [Fully Assembled Model (STL)](hardware/3d-models/refrigerator-fully-assembled.stl)
+
+
 ## 1. Project Overview
 
 The Smart Refrigerator System is a physically implemented and operational refrigerator prototype developed as part of the LankonFarm startup project.
