@@ -5,7 +5,7 @@ This directory contains the 3D models developed for the ESP32-based Smart Refrig
 
 ## 1. Refrigerator Body
 
-**File:** `refrigerator-body.stl`
+**File:** [refrigerator-body.stl](./refrigerator-body.stl)
 
 The main enclosure of the refrigerator.
 
@@ -17,7 +17,7 @@ The main enclosure of the refrigerator.
 
 ## 2. Refrigerator Door
 
-**File:** `refrigerator-door.stl`
+**File:** [refrigerator-door.stl](./refrigerator-door.stl)
 
 The separately modeled refrigerator door, designed to fit the main enclosure.
 
@@ -29,7 +29,7 @@ The separately modeled refrigerator door, designed to fit the main enclosure.
 
 ## 3. Fully Assembled Model
 
-**File:** `refrigerator-fully-assembled.stl`
+**File:** [refrigerator-fully-assembled.stl](./refrigerator-fully-assembled.stl)
 
 The combined 3D model containing the refrigerator body and door in their assembled positions.
 
