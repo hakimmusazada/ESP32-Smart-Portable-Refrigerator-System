@@ -1,6 +1,6 @@
 # ESP32 Smart Refrigerator System
 
-An embedded smart refrigerator prototype developed using the ESP32 microcontroller, integrating environmental monitoring, thermoelectric cooling, door-state detection, audible alerts, and manually selectable AC/battery power operation.
+An embedded smart refrigerator prototype developed using the ESP32 microcontroller, integrating environmental monitoring, thermoelectric cooling, door-state detection, audible alerts, built-in display and manually selectable AC/battery power operation.
 
 ## Technical Documentation
 
