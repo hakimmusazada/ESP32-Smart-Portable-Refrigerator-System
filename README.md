@@ -119,7 +119,6 @@ Detailed circuit connections, battery specifications, and power-management infor
 The repository includes the following engineering materials:
 
 - ESP32 source code.
-- Electronic schematic design.
 - STL-format 3D model.
 - 3D model visualization and rendered views.
 - Hardware and software documentation.
