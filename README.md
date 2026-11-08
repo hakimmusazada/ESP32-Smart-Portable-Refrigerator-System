@@ -8,6 +8,7 @@ An embedded smart refrigerator prototype developed using the ESP32 microcontroll
 - [System Architecture](docs/system-architecture.md)
 - [Hardware Documentation](docs/hardware-documentation.md)
 - [Power System](docs/power-system.md)
+- [Software Documentation](docs/software-documentation.md)
 - [Testing and Validation](docs/testing-and-validation.md)
 
 ## 1. Project Overview
