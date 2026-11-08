@@ -1,0 +1,32 @@
+
+# Arduino build artifacts
+build/
+*.elf
+*.hex
+*.bin
+*.o
+*.d
+
+# Compiled firmware
+*.elf
+*.hex
+*.bin
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
+
+# Arduino IDE local files
+*.ino.eep
+*.ino.with_bootloader.bin
