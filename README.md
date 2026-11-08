@@ -2,6 +2,14 @@
 
 An embedded smart refrigerator prototype developed using the ESP32 microcontroller, integrating environmental monitoring, thermoelectric cooling, door-state detection, and dual power operation.
 
+## Technical Documentation
+
+- [Hardware Components](hardware/components.md)
+- [System Architecture](docs/system-architecture.md)
+- [Hardware Documentation](docs/hardware-documentation.md)
+- [Power System](docs/power-system.md)
+- [Testing and Validation](docs/testing-and-validation.md)
+
 ## 1. Project Overview
 
 The Smart Refrigerator System is a physically implemented and operational refrigerator prototype developed as part of the LankonFarm startup project.
