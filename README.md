@@ -56,7 +56,7 @@ The refrigerator enclosure was developed as a 3D model, with separate body and d
 ### Complete Prototype
 
 ![Smart Refrigerator Prototype - Front](media/prototype-photos/refrigerator-front.png)
-![Smart Refrigerator Prototype - Side](media/prototype-photos/refrigerator-refrigerator-side.jpg)
+![Smart Refrigerator Prototype - Side](media/prototype-photos/refrigerator-side.jpg)
 
 ### Internal Cooling System
 
