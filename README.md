@@ -2,17 +2,30 @@
 
 An embedded smart refrigerator prototype developed using the ESP32 microcontroller, integrating environmental monitoring, thermoelectric cooling, door-state detection, audible alerts, built-in display and manually selectable AC/battery power operation.
 
-## Technical Documentation
 
-- [Hardware Components](hardware/components.md)
-- [System Architecture](docs/system-architecture.md)
-- [Hardware Documentation](docs/hardware-documentation.md)
-- [Power System](docs/power-system.md)
-- [Software Documentation](docs/software-documentation.md)
-- [Testing and Validation](docs/testing-and-validation.md)
 
-  
-## 3D Design and Modeling
+
+## 1. Project Overview
+
+The Smart Refrigerator System is a physically implemented and operational refrigerator prototype developed as part of the LankonFarm startup project.
+
+The system combines embedded electronics, temperature and humidity monitoring, thermal management, power conversion, and mechanical design to provide an integrated refrigeration solution.
+
+The prototype was presented at the 13th session of the World Urban Forum (WUF13), where the project was represented by its embedded systems engineering team.
+
+## 2. Key Features
+
+- **Environmental Monitoring:** Measures temperature and humidity inside the refrigerator.
+- **LCD Interface:** Displays environmental measurements to the user.
+- **Door-State Detection:** Uses a magnetic sensor to detect whether the refrigerator door is open or closed.
+- **Door-Open Alert:** Activates a buzzer when the door remains open beyond a configurable time threshold.
+- **Thermoelectric Cooling:** Uses a Peltier module for cooling.
+- **Thermal Management:** Incorporates separate internal and external radiator assemblies for cold-side and hot-side thermal management.
+- **Air Circulation:** Uses an internal computer fan to distribute cooled air throughout the refrigerator.
+- **Dual Power Operation:** Supports AC and battery power, with manual selection between the two power sources.
+- **Mechanical Door Design:** Incorporates a hinge mechanism and magnetic door-closing mechanism.
+
+## 3. 3D Design and Modeling
 
 The refrigerator enclosure was developed as a 3D model, with separate body and door components and a fully assembled representation.
 
@@ -36,28 +49,7 @@ The refrigerator enclosure was developed as a 3D model, with separate body and d
 - [Refrigerator Door (STL)](hardware/3d-models/refrigerator-door.stl)
 - [Fully Assembled Model (STL)](hardware/3d-models/refrigerator-fully-assembled.stl)
 
-
-## 1. Project Overview
-
-The Smart Refrigerator System is a physically implemented and operational refrigerator prototype developed as part of the LankonFarm startup project.
-
-The system combines embedded electronics, temperature and humidity monitoring, thermal management, power conversion, and mechanical design to provide an integrated refrigeration solution.
-
-The prototype was presented at the 13th session of the World Urban Forum (WUF13), where the project was represented by its embedded systems engineering team.
-
-## 2. Key Features
-
-- **Environmental Monitoring:** Measures temperature and humidity inside the refrigerator.
-- **LCD Interface:** Displays environmental measurements to the user.
-- **Door-State Detection:** Uses a magnetic sensor to detect whether the refrigerator door is open or closed.
-- **Door-Open Alert:** Activates a buzzer when the door remains open beyond a configurable time threshold.
-- **Thermoelectric Cooling:** Uses a Peltier module for cooling.
-- **Thermal Management:** Incorporates separate internal and external radiator assemblies for cold-side and hot-side thermal management.
-- **Air Circulation:** Uses an internal computer fan to distribute cooled air throughout the refrigerator.
-- **Dual Power Operation:** Supports AC and battery power, with manual selection between the two power sources.
-- **Mechanical Door Design:** Incorporates a hinge mechanism and magnetic door-closing mechanism.
-
-## 3. Hardware Components
+## 4. Hardware Components
 
 | Component | Function |
 |---|---|
@@ -75,7 +67,7 @@ The prototype was presented at the 13th session of the World Urban Forum (WUF13)
 
 *Exact component models and electrical ratings will be documented when available.*
 
-## 4. System Architecture
+## 5. System Architecture
 
 The system consists of four main functional subsystems:
 
@@ -84,7 +76,7 @@ The system consists of four main functional subsystems:
 3. **Power System:** A 220V AC to 12V DC SMPS provides the AC-powered supply, while a battery provides an alternative source selected manually.
 4. **Door Monitoring:** A magnetic sensor detects door status, and a buzzer provides an alert when the door remains open beyond the configured threshold.
 
-## 5. Door Monitoring and Alert Mechanism
+## 6. Door Monitoring and Alert Mechanism
 
 The magnetic sensor monitors the refrigerator door state.
 
@@ -92,7 +84,7 @@ When the door remains open beyond the configured time threshold, the ESP32 activ
 
 The warning delay is adjustable, with a 20-second setting used in the project.
 
-## 6. Cooling and Thermal Management
+## 7. Cooling and Thermal Management
 
 The refrigeration system uses a Peltier thermoelectric module.
 
@@ -103,7 +95,7 @@ Two separate radiator assemblies are incorporated:
 
 An additional computer fan circulates air inside the refrigerator to improve the distribution of cooled air.
 
-## 7. Power Supply Architecture
+## 8. Power Supply Architecture
 
 The refrigerator supports two manually selectable power sources:
 
@@ -114,7 +106,7 @@ The power-source selection is manual rather than automatic.
 
 Detailed circuit connections, battery specifications, and power-management information will be documented separately.
 
-## 8. Project Resources
+## 9. Project Resources
 
 The repository includes the following engineering materials:
 
@@ -123,7 +115,7 @@ The repository includes the following engineering materials:
 - 3D model visualization and rendered views.
 - Hardware and software documentation.
 
-## 9. Project Presentation
+## 10. Project Presentation
 
 **World Urban Forum — 13th Session (WUF13)**
 
@@ -131,7 +123,7 @@ The prototype was presented at the 13th session of the World Urban Forum (WUF13)
 
 Demonstration video: [Smart Refrigerator Prototype](https://youtube.com/shorts/mvteYwvX5kU)
 
-## 10. Testing and Validation
+## 11. Testing and Validation
 
 The refrigerator was physically assembled and demonstrated as an operational prototype.
 
@@ -141,7 +133,7 @@ Detailed quantitative test measurements and independently reproducible validatio
 
 The author does not currently have physical access to the prototype.
 
-## 11. Limitations and Future Improvements
+## 12. Limitations and Future Improvements
 
 Potential areas for further development include:
 
@@ -154,6 +146,15 @@ Potential areas for further development include:
 
 These are proposed improvements, not claims of already implemented functionality.
 
-## 12. License
+## 13. Technical Documentation
+
+- [Hardware Components](hardware/components.md)
+- [System Architecture](docs/system-architecture.md)
+- [Hardware Documentation](docs/hardware-documentation.md)
+- [Power System](docs/power-system.md)
+- [Software Documentation](docs/software-documentation.md)
+- [Testing and Validation](docs/testing-and-validation.md)
+
+## 14. License
 
 License information will be added after confirming the project's ownership and publication permissions.
