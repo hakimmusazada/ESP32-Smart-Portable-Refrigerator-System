@@ -55,19 +55,16 @@ The refrigerator enclosure was developed as a 3D model, with separate body and d
 
 ### Complete Prototype
 
-![Smart Refrigerator Prototype](media/prototype-photos/refrigerator-full-view.jpg)
+![Smart Refrigerator Prototype - Front](media/prototype-photos/refrigerator-refrigerator-front.png)
+![Smart Refrigerator Prototype - Side](media/prototype-photos/refrigerator-refrigerator-side.png)
 
 ### Internal Cooling System
 
 ![Internal Cooling System](media/prototype-photos/refrigerator-internal-cooling.jpg)
 
-### Embedded Electronics
+### Embedded Electronics / Rear View
 
-![ESP32 Electronics](media/prototype-photos/refrigerator-electronics.jpg)
-
-### Operating Demonstration
-
-![Operating Prototype](media/prototype-photos/refrigerator-operating-demo.jpg)
+![ESP32 Electronics](media/prototype-photos/refrigerator-rear.png)
 
 ## 5. Hardware Components
 
