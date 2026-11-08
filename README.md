@@ -49,7 +49,27 @@ The refrigerator enclosure was developed as a 3D model, with separate body and d
 - [Refrigerator Door (STL)](hardware/3d-models/refrigerator-door.stl)
 - [Fully Assembled Model (STL)](hardware/3d-models/refrigerator-fully-assembled.stl)
 
-## 4. Hardware Components
+## 4. Prototype Gallery
+
+> **Image Editing Note:** The prototype photographs are based on actual photographs of the physically assembled refrigerator. AI-assisted image editing was used exclusively to replace the original backgrounds and remove unwanted objects from the surroundings. The refrigerator itself and its hardware components have not been AI-generated or altered.
+
+### Complete Prototype
+
+![Smart Refrigerator Prototype](media/prototype-photos/refrigerator-full-view.jpg)
+
+### Internal Cooling System
+
+![Internal Cooling System](media/prototype-photos/refrigerator-internal-cooling.jpg)
+
+### Embedded Electronics
+
+![ESP32 Electronics](media/prototype-photos/refrigerator-electronics.jpg)
+
+### Operating Demonstration
+
+![Operating Prototype](media/prototype-photos/refrigerator-operating-demo.jpg)
+
+## 5. Hardware Components
 
 | Component | Function |
 |---|---|
@@ -67,7 +87,7 @@ The refrigerator enclosure was developed as a 3D model, with separate body and d
 
 *Exact component models and electrical ratings will be documented when available.*
 
-## 5. System Architecture
+## 6. System Architecture
 
 The system consists of four main functional subsystems:
 
@@ -76,7 +96,7 @@ The system consists of four main functional subsystems:
 3. **Power System:** A 220V AC to 12V DC SMPS provides the AC-powered supply, while a battery provides an alternative source selected manually.
 4. **Door Monitoring:** A magnetic sensor detects door status, and a buzzer provides an alert when the door remains open beyond the configured threshold.
 
-## 6. Door Monitoring and Alert Mechanism
+## 7. Door Monitoring and Alert Mechanism
 
 The magnetic sensor monitors the refrigerator door state.
 
@@ -84,7 +104,7 @@ When the door remains open beyond the configured time threshold, the ESP32 activ
 
 The warning delay is adjustable, with a 20-second setting used in the project.
 
-## 7. Cooling and Thermal Management
+## 8. Cooling and Thermal Management
 
 The refrigeration system uses a Peltier thermoelectric module.
 
@@ -95,7 +115,7 @@ Two separate radiator assemblies are incorporated:
 
 An additional computer fan circulates air inside the refrigerator to improve the distribution of cooled air.
 
-## 8. Power Supply Architecture
+## 9. Power Supply Architecture
 
 The refrigerator supports two manually selectable power sources:
 
@@ -106,7 +126,7 @@ The power-source selection is manual rather than automatic.
 
 Detailed circuit connections, battery specifications, and power-management information will be documented separately.
 
-## 9. Project Resources
+## 10. Project Resources
 
 The repository includes the following engineering materials:
 
@@ -115,7 +135,7 @@ The repository includes the following engineering materials:
 - 3D model visualization and rendered views.
 - Hardware and software documentation.
 
-## 10. Project Presentation
+## 11. Project Presentation
 
 **World Urban Forum — 13th Session (WUF13)**
 
@@ -123,7 +143,7 @@ The prototype was presented at the 13th session of the World Urban Forum (WUF13)
 
 Demonstration video: [Smart Refrigerator Prototype](https://youtube.com/shorts/mvteYwvX5kU)
 
-## 11. Testing and Validation
+## 12. Testing and Validation
 
 The refrigerator was physically assembled and demonstrated as an operational prototype.
 
@@ -133,7 +153,7 @@ Detailed quantitative test measurements and independently reproducible validatio
 
 The author does not currently have physical access to the prototype.
 
-## 12. Limitations and Future Improvements
+## 13. Limitations and Future Improvements
 
 Potential areas for further development include:
 
@@ -146,7 +166,7 @@ Potential areas for further development include:
 
 These are proposed improvements, not claims of already implemented functionality.
 
-## 13. Technical Documentation
+## 14. Technical Documentation
 
 - [Hardware Components](hardware/components.md)
 - [System Architecture](docs/system-architecture.md)
@@ -155,6 +175,6 @@ These are proposed improvements, not claims of already implemented functionality
 - [Software Documentation](docs/software-documentation.md)
 - [Testing and Validation](docs/testing-and-validation.md)
 
-## 14. License
+## 15. License
 
 License information will be added after confirming the project's ownership and publication permissions.
