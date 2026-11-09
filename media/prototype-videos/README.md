@@ -4,7 +4,7 @@ This directory contains selected video recordings and visual documentation from 
 
 ## Development & Testing Footage
 
-- **Prototype Development and Testing:** [Watch Video](https://drive.google.com/file/d/1mFv3pJHEW_hnd9IUslEDI6-HHJoiEqKD/view?usp=drive_link)
+- **Prototype Development and Testing:** [Watch Video](https://drive.google.com/file/d/19ebwdAvicosXsBKx-yCTOZQHL1GlnG8z/view?usp=drive_link)
 
 These recordings provide visual evidence of the prototype's construction, implementation, and testing process.
 
