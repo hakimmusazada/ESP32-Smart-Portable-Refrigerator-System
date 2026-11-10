@@ -60,7 +60,7 @@ The refrigerator enclosure was developed as a 3D model, with separate body and d
 
 ### Internal Cooling System
 
-![Internal Cooling System](media/prototype-photos/refrigerator-internal-cooling.jpg)
+![Internal Cooling System](media/prototype-photos/internal-cooling-system.png)
 
 ### Embedded Electronics / Rear View
 
